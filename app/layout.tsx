@@ -29,9 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-dvh w-full max-w-screen px-6 md:px-10 py-10 relative font-mono`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-dvh w-full max-w-screen px-4 sm:px-6 md:px-10 py-10 relative font-mono`}
       >
-        <div className="absolute inset-x-0 top-0 px-8 md:px-12 py-20 z-50">
+        <div className="absolute inset-x-0 top-0 px-6 sm:px-8 md:px-12 py-20 z-50 max-w-screen">
           <Header />
         </div>
         {children}

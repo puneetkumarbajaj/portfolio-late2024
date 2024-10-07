@@ -12,7 +12,6 @@ import FramerWrapper from "./animation";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
-
 interface ProjectCardProps {
   // eslint-disable-next-line
   value: any;
@@ -44,27 +43,29 @@ const ProjectCards: React.FC<ProjectCardProps> = ({ value, num }) => {
         </CardHeader>
         <CardContent>
           <p className="text-base font-poppins">{value.description}</p>
-          <div className="w-full h-fit flex mt-2 justify-center flex-row gap-3">
-            {value.tags.map((itm: string, indx: number) => {
-              return (
-                <span
-                  className={`inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium ${
-                    itm === "Nextjs"
-                      ? "bg-teal-100 text-teal-800"
-                      : itm === "Freelancing"
-                      ? "bg-yellow-100 text-yellow-800"
-                      : itm === "Shadcn Ui"
-                      ? "bg-blue-100 text-blue-800"
-                      : itm === "Typescript"
-                      ? "bg-red-100 text-red-800"
-                      : "bg-gray-100 text-gray-800"
-                  }`}
-                  key={indx}
-                >
-                  {itm}
-                </span>
-              );
-            })}
+          <div className="w-full h-fit flex mt-2 justify-center flex-wrap gap-2 overflow-hidden">
+            <div className="max-w-full overflow-auto flex gap-2 flex-wrap">
+              {value.tags.map((itm: string, indx: number) => {
+                return (
+                  <span
+                    className={`inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium ${
+                      itm === "Nextjs"
+                        ? "bg-teal-100 text-teal-800"
+                        : itm === "Freelancing"
+                        ? "bg-yellow-100 text-yellow-800"
+                        : itm === "Shadcn Ui"
+                        ? "bg-blue-100 text-blue-800"
+                        : itm === "Typescript"
+                        ? "bg-red-100 text-red-800"
+                        : "bg-gray-100 text-gray-800"
+                    }`}
+                    key={indx}
+                  >
+                    {itm}
+                  </span>
+                );
+              })}
+            </div>
           </div>
         </CardContent>
         <CardFooter className="items-center justify-center flex">

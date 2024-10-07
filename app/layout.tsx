@@ -19,7 +19,6 @@ export const metadata: Metadata = {
   description: "Explore the portfolio of Puneet Bajaj, a software engineer specializing in full stack development, AI integration, and digital solutions.",
   keywords: ["Puneet Bajaj", "Software Engineer", "Full Stack Developer", "AI Integration", "Digital Solutions", "Portfolio", "Georgia State University", "Projects"],
   authors: [{name: "Puneet Bajaj"}],
-  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({

@@ -53,9 +53,9 @@ function Page() {
         development strategies.
       </p>
       <p className="text-lg mb-4">
-        Puneet’s technical portfolio also includes the development of{" "}
+        Puneet&apos;s technical portfolio also includes the development of{" "}
         <strong>CareerSwipe</strong>, an AI-driven recruiting platform
-        recognized by the University's Associate Dean of Computer Science. His
+        recognized by the University&apos;s Associate Dean of Computer Science. His
         expertise in designing AI-powered systems and cloud-based architecture
         has been instrumental in enhancing user experiences and improving the
         efficiency of digital platforms.

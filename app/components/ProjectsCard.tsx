@@ -12,7 +12,9 @@ import FramerWrapper from "./animation";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
+
 interface ProjectCardProps {
+  // eslint-disable-next-line
   value: any;
   num: number;
 }

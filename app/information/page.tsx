@@ -6,14 +6,14 @@ const experienceData = [
     organization: "Georgia State University",
     duration: "September 2024 - Present",
     description:
-      "Leading the development of an interactive digital human project, integrating AI and computer vision technologies. Managing a team of research assistants, overseeing project strategies, and collaborating with the AI lab.",
+      "Leading a team of 6 to develop digital-humans, achieving human-like communication with real-time emotion responsiveness. Optimized ML algorithms in Python, enhancing response speed by 30% for real-time, emotion-based interactions. Conducting Department of Defense funded research at CHAI Center ($10M Grant), advancing digital-human capabilities. Built computer vision and voice analysis models in Python & C++ enabling responses to user emotions with 500ms latency.",
   },
   {
     title: "Research Assistant - AMAI Lab",
     organization: "Georgia State University",
     duration: "February 2024 - May 2024",
     description:
-      "Developed a Flutter-based emotion detection app and optimized TensorFlow Lite algorithms, improving computational efficiency by 25%. Accelerated app development cycle, boosting project delivery speed by 10x.",
+      "Developed a Flutter-based emotion detection for mobile devices, completing the project 4x faster than the expected timeline. Utilized TensorFlow Lite to develop mobile-optimized machine learning models, improving computational efficiency by 25%. Collaborated with a cross-functional team of 4 people to rapidly deploy ML solutions on mobile and embedded platforms.",
   },
   {
     title: "Lead Makerspace Assistant",
@@ -23,11 +23,18 @@ const experienceData = [
       "Managed 3D printing systems and conducted training sessions for students on advanced equipment. Optimized lab processes, increasing printing efficiency by up to four times, and led a team across two campus maker spaces.",
   },
   {
-    title: "AWS Cloud Practitioner",
+    title: "AWS Certified Solutions Architect - Associate",
     organization: "AWS Certification",
-    duration: "Valid Until June 2027",
+    duration: "Valid Until October 2027",
     description:
-      "Certified cloud practitioner with a focus on building and deploying cloud-based architectures using AWS services.",
+      "Certified Solutions Architect with a focus on building and deploying cloud-based architectures using AWS services.",
+  },
+  {
+    title: "Certified Terraform - Associate",
+    organization: "Hashicorp Certification",
+    duration: "Valid Until October 2027",
+    description:
+      "Certified cloud developer with a focus on building and deploying cloud-based architectures using IaC.",
   },
 ];
 

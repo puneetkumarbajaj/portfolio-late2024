@@ -19,7 +19,7 @@ function Header() {
         <Link href="/work" onClick={() => setIsOpen(false)}>work</Link>
         <Link href="/information" onClick={() => setIsOpen(false)}>information</Link>
         <Link href="/contact" onClick={() => setIsOpen(false)}>contact</Link>
-        <Link href="" onClick={() => setIsOpen(false)}>resume</Link>
+        <Link href="/Puneet_Resume.pdf" onClick={() => setIsOpen(false)}>resume</Link>
       </nav>
 
       <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent md:ml-auto">

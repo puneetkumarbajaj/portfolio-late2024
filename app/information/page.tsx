@@ -2,6 +2,12 @@ import React from "react";
 
 const experienceData = [
   {
+    title: "Software Development Engineer",
+    organization: "Amazon",
+    duration: "Starting December 2024",
+    description: "TBD"
+  },
+  {
     title: "Research Assistant - Digital Human Lab",
     organization: "Georgia State University",
     duration: "September 2024 - Present",
